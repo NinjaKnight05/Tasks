@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background: #000; */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            color:aliceblue;
+            display: flex;
+            justify-content: center;
+
+        }
+        label{
+            color: aliceblue;
+            font-size:large;
+        }
+
+        .container{
+            background: rgba(69, 68, 68, 0.881);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            border-radius: 2dvh;
+            box-shadow:10px 10px 10px  ;
+            width: 400px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+
+        input{
+            margin-bottom: 15px;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        button{
+            background: blue;
+            border: none;
+            color:white;
+            padding:15px;
+            border-radius: 10px;
+            font-size: medium;
+            font-weight: 550;
+        }
+        button:hover{
+            background: #000;
+        }
+
+        
+      .new a, .n {
+       display:inline-flex;
+       color: white;
+       text-decoration: none;
+       }
+    
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Login</h1>
+            <label for="email">Email</label>
+            <input type="email">
+
+            <label for="Password">Password</label>
+            <input color="white" type="Password">
+
+            <button type="button">Submit</button>
+           <p class="new">
+               <span class="n">New User !? </span> <a href="Register.html">Create Account.</a>
+           </p>
+        </div>
+    </div>
+</body>
+</html>
