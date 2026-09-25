@@ -33,7 +33,7 @@
             box-shadow:10px 10px 10px  ;
             width: 400px;
         }
-        .form{
+        .fill{
             display: flex;
             flex-direction: column;
             width: 500px;
@@ -56,12 +56,19 @@
         }
         button:hover{
             background: #000;
+            cursor:Pointer;
         }
 
         
-      .new a, .n {
+      .new span {
        display:inline-flex;
-       color: white;
+       color: rgb(235, 231, 231);
+       text-decoration: none;
+       }
+
+       .new a {
+       display:inline-flex;
+       color: rgb(211, 204, 83);
        text-decoration: none;
        }
     
@@ -70,19 +77,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="form">
+        <form class="fill">
             <h1>Login</h1>
             <label for="email">Email</label>
-            <input type="email">
+            <input type="email" placeholder="Gmail">
 
             <label for="Password">Password</label>
-            <input color="white" type="Password">
+            <input color="white" type="Password" placeholder="Password">
 
-            <button type="button">Submit</button>
+            <button type="submit">Submit</button>
            <p class="new">
-               <span class="n">New User !? </span> <a href="Register.html">Create Account.</a>
+               <span>New User !? </span> <a href="Register.html">Create Account.</a>
            </p>
-        </div>
+        </form>
     </div>
 </body>
 </html>
